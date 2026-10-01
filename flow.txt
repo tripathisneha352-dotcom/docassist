@@ -1,0 +1,26 @@
+              BANK PDF
+                  ↓
+            Extract text
+                  ↓
+              Chunks
+                  ↓
+          Create embeddings
+                  ↓
+          Store in Vector DB
+                  ↓
+        ┌──── USER QUESTION ────┐
+        ↓                        ↓
+   Create embedding       Search Vector DB
+                                 ↓
+                         Relevant chunks
+                                 ↓
+                         Send to LLM
+                                 ↓
+                         Final answer
+
+
+
+
+
+An embedding converts text into numbers in such a way that texts with similar meanings tend to be close together 
+in vector space.
